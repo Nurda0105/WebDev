@@ -1,0 +1,63 @@
+.main-home {
+    background-image: url(https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29yayUyMGRlc2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.home-content {
+    display: flex;
+    color: azure;
+    flex-direction: column;
+    padding-top: 20%;
+
+
+}
+.home-content h3{
+    font-size: 40px;
+    font-weight: bold;
+    width: 300px;
+    padding: 20px 100px;
+
+}
+.home-content p{
+    font-size: 20px;
+    width: 500px;
+    padding: 20px 100px;
+    font-weight: normal;
+}
+.btns {
+    padding: 5px 100px;
+
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: normal;
+    margin-right: 10px;
+
+
+}
+.btn-first {
+    background-color: #007bff;
+    color: white;
+    font-weight: normal;
+
+
+}
+.btn-second {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: normal;
+
+}
+.btn-first:hover{
+    background-color: #2c7ae7;
+
+}
+.btn-second:hover {
+    background-color: black;
+    color: white;
+    font-weight: normal;
+}

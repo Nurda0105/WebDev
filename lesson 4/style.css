@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    height: 60px;
+}
+
+.container {
+    padding: 0px 150px;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;   
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.navs a{
+    padding: 0px 5px;
+    color: black;
+}
+
+/* .navs a:first-child{
+    color: yellow;
+
+}
+.navs a:nth-child(2){
+    color: red;
+
+}
+.navs a:nth-child(even){
+    color: blue;
+
+}
+.navs a:nth-child(odd){
+    color: pink;
+
+.navs a:last-child{
+    color: green;
+}
+ */
+
+ .navs a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.navs {
+    display: flex;
+    align-items: center;   
+}
+
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.header_right img{
+    padding: 0px 5px;
+}
+.section {
+    height: 80vh;
+    background-color: red;
+
+}
+.block1 {
+    background-image: url(https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29yayUyMGRlc2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.h1 {
+    color: white;
+    font-size: 50px;
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    padding-right: 600px;
+}
+
+.h2 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 450px;
+}  
+.h3 {
+    size: 30px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 500px;
+}

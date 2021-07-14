@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    position:fixed;
+    right: 0;
+    left: 0;
+    
+
+}
+
+.header_left {
+    display: flex;
+    align-items: center;   
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.navs a{
+    padding: 0px 5px;
+    color: black;
+}
+.navs a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.navs {
+    display: flex;
+    align-items: center;   
+}
+
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.header_right img{
+    padding: 0px 5px;
+}

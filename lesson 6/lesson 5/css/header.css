@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    position:fixed;
+    right: 0;
+    left: 0;
+    
+
+}
+
+.header_left {
+    display: flex;
+    align-items: center;   
+}
+.logo {
+    display: flex;
+    align-items: center;
+    animation: appear_left 2s 2; 
+    
+}
+.navs a{
+    padding: 0px 5px;
+    color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navs a:hover{
+    color: blue;
+    transition: 0.5s;
+    animation: appear_top 1s;
+    
+}
+
+.navs {
+    display: flex;
+    align-items: center;   
+}
+
+
+.header_right {
+    display: flex;
+    align-items: center;
+    animation: appeat_right 3s;
+}
+
+.header_right img{
+    padding: 0px 5px;
+
+    
+}
+
+@keyframes appear_top {
+    from {
+    transform: translateY(-20px);
+    }
+    to {
+    transform: translateY(0px);
+    }
+}
+/* @keyframes appear_left {
+    from {
+    transform: translateX(-20px);
+    }
+    to {
+    transform: translateX(0px);
+    }
+}
+@keyframes appear_right {
+    0% {
+    transform: translateX(20px);
+    }
+    25% {
+        transform: translateY(20px);
+    }
+    75% {
+        transform: translateY(-20px);
+    }
+    100% {
+    transform: translateX(0px);
+    transform: translateY(0px);
+    }
+} */
+
